@@ -4,5 +4,6 @@ from . import views
 # Create your views here.
 urlpatterns = [
     path('', views.home, name='home'),
-    path('about/', views.about, name='about')
+    path('about/', views.about, name='about'),
+    path('pokemons/', views.pokemon_index, name='pokemon-index')
 ]
