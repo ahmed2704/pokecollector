@@ -47,6 +47,12 @@ body {
   --font-l: 1.8rem;
   --font-reg: 1.6rem;
   --card-border-radius: 6px;
+  background: linear-gradient(45deg, cyan, lightcyan);
+}
+
+img.img-logo {
+  width: 50px;
+  height: 50px;
 }
 
 header {
@@ -254,8 +260,8 @@ nav li {
   .header-logo-container {
     /* visual fix to help align logo */
     padding-top: 6px;
-    width: 256px;
-    height: 35px;
+    width: 600px;
+    /* height: 35px; */
   }
 
   @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
